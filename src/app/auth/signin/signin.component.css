@@ -1,0 +1,28 @@
+
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-floating .form-control:focus~label {
+    color: #007bff;
+}
+
+#logo-container p {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+#logo-container p::first-letter {
+    color: orange;
+    font-size: 30px;
+}
